@@ -24,7 +24,7 @@ plot(
     y = as.numeric(d.f$Global_active_power) / 1000
     ,   x = as.POSIXct(paste(d.f$Date, d.f$Time), format="%Y-%m-%d %H:%M:%S")
     ,   type = "n"
-    ,   ylab = "Energy Sub-Metering"
+    ,   ylab = "Global Active Power"
     ,   xlab = NA
     ,   )
 
